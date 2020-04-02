@@ -47,7 +47,7 @@ def simple_cnn(input_shape):
 
 simple_cnn_model = simple_cnn(input_shape)
 
-simple_cnn_model.fit(x_train, y_train, batch_size, epochs, (x_test, y_test))
+simple_cnn_model.fit(x=x_train, y=y_train, batch_size=batch_size, epochs=epochs, verbose=1, validation_data=(x_test, y_test))
 train_loss, train_accuracy = simple_cnn_model.evaluate(
     x_train, y_train, verbose=0)
 print('Train data loss:', train_loss)
