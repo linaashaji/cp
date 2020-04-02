@@ -2,7 +2,7 @@ import numpy as np
 import os
 import tensorflow as tf
 
-work_dir = 'dogs_vs_cats_dataset/data'
+work_dir = '../dogs_vs_cats_dataset/data'
 
 image_height, image_width = 150, 150
 train_dir = os.path.join(work_dir, 'train')
