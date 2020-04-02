@@ -14,7 +14,7 @@ from tensorflow.keras import optimizers
 from tensorflow.keras.models import Sequential, Model
 from tensorflow.keras.layers import Dropout, Flatten, Dense, GlobalMaxPooling2D
 
-work_dir = 'dogs_vs_cats_dataset/data'
+work_dir = '../dogs_vs_cats_dataset/data'
 
 # dimensions of our images.
 img_width, img_height = 150, 150
