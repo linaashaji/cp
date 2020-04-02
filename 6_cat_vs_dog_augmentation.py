@@ -1,7 +1,7 @@
 import tensorflow as tf
 import os
 
-work_dir = 'dogs_vs_cats_dataset/data'
+work_dir = '../dogs_vs_cats_dataset/data'
 
 
 image_height, image_width = 150, 150
