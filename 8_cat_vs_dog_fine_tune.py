@@ -6,7 +6,7 @@ from tensorflow.keras import optimizers
 from tensorflow.keras.models import Sequential, Model
 from tensorflow.keras.layers import Dropout, Flatten, Dense
 
-work_dir = 'dogs_vs_cats_dataset/data'
+work_dir = '../dogs_vs_cats_dataset/data'
 top_model_weights_path = 'fc_model.h5'
 # dimensions of our images.
 img_width, img_height = 150, 150
