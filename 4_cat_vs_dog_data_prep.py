@@ -1,7 +1,7 @@
 import os
 import shutil
 
-work_dir = 'dogs_vs_cats_dataset'
+work_dir = './dogs_vs_cats_dataset'
 image_names = sorted(os.listdir(os.path.join(work_dir, 'train')))
 
 
