@@ -23,7 +23,7 @@ import torch.nn.functional as F
 from torchvision import datasets, transforms, models
 
 
-data_dir = 'dogs_vs_cats_dataset/data'
+data_dir = '../dogs_vs_cats_dataset/data'
 
 # TODO: Define transforms for the training data and testing data
 train_transforms = transforms.Compose([transforms.RandomRotation(30),
